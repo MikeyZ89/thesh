@@ -2,7 +2,7 @@ import React from 'react'
 
 export default ({ publicationLinks }) => {
     return (
-        <section className="bg-light page-section" id="portfolio">
+        <section className="bg-gray page-section" id="portfolio">
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
