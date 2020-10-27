@@ -20,7 +20,7 @@ function App() {
       title: "Andrew Keiser",
       caption: "Producer/Drummer",
       instagram: "https://www.instagram.com/andrewkeiser_/",
-      venmo: "#",
+      venmo: "#https://www.tappy.tech/AK15366",
     },
   ];
 
