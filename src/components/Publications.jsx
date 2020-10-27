@@ -12,12 +12,12 @@ export default ({ publicationLinks }) => {
           </div>
           <div className="row">
             {
-                publicationLinks && publicationLinks.map(({ image, title, caption, link , instagram}, index) => 
+                publicationLinks && publicationLinks.map(({ image, title, caption, link , instagram, venmo}, index) => 
                     <div className="col-md-6 col-sm-6 portfolio-item">
                         <a className="portfolio-link" data-toggle="modal" href="#portfolioModal1">
                             <div className="portfolio-hover">
                                 <div className="portfolio-hover-content">
-                                    <a href={ link }><i className="fa fa-plus fa-3x"></i></a>
+                                    <a href={ link }><i className="fa fa-angellist fa-3x"></i></a>
                                 </div>
                             </div>
                             <img className="img-fluid" src={ image } alt={ image } />
@@ -30,6 +30,11 @@ export default ({ publicationLinks }) => {
                           <li className="list-inline-item">
                             <a href= { instagram }> 
                               <i className="fa fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li className="list-inline-item">
+                            <a href= { venmo }> 
+                              <i className="fa fa-money"></i>
                             </a>
                           </li>
                         </ul>

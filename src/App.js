@@ -14,6 +14,7 @@ function App() {
       caption: "Singer-Songwriter/Guitarist",
       link: "#",
       instagram: "https://www.instagram.com/thesh_mikey/",
+      venmo: "#",
     },
     {
       image: P2,
@@ -21,6 +22,7 @@ function App() {
       caption: "Producer/Drummer",
       link: "#",
       instagram: "https://www.instagram.com/andrewkeiser_/",
+      venmo: "#",
     },
   ];
 
