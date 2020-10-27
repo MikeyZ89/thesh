@@ -99,11 +99,6 @@ export default class MyForm extends React.Component {
           </div>
         </div>
       </div>
-        <br></br>
-        <br></br>
-        <row>
-          <div class="col-md-12 text-white center">THESH 2020</div>
-        </row>
     </section>
     );
   }
