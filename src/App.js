@@ -14,7 +14,7 @@ function App() {
       caption: "Singer-Songwriter/Guitarist",
       link: "#",
       instagram: "https://www.instagram.com/thesh_mikey/",
-      venmo: "#",
+      contact: "https://www.tappy.tech/mikez",
     },
     {
       image: P2,
