@@ -12,12 +12,11 @@ export default ({ publicationLinks }) => {
           </div>
           <div className="row">
             {
-                publicationLinks && publicationLinks.map(({ image, title, caption, link , instagram, contact}, index) => 
+                publicationLinks && publicationLinks.map(({ image, title, caption , instagram, contact}, index) => 
                     <div className="col-md-6 col-sm-6 portfolio-item">
-                        <a className="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                        <a className="portfolio-link" data-toggle="modal" href="#">
                             <div className="portfolio-hover">
                                 <div className="portfolio-hover-content">
-                                    <a href={ link }><i className="fa fa-angellist fa-3x"></i></a>
                                 </div>
                             </div>
                             <img className="img-fluid" src={ image } alt={ image } />
