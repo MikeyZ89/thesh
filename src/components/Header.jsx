@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import THESH from "../assets/img/logos/THESHHEADER.png";
+import THESH from "../assets/img/logos/theshblue.png";
 
 function Header() {
   return (
