@@ -14,7 +14,7 @@ export default ({ publicationLinks }) => {
             {
                 publicationLinks && publicationLinks.map(({ image, title, caption , instagram, contact}, index) => 
                     <div className="col-md-6 col-sm-6 portfolio-item">
-                        <a className="portfolio-link" data-toggle="modal" href="#">
+                        <a className="portfolio-link" data-toggle="modal" href={ instagram }>
                             <div className="portfolio-hover">
                                 <div className="portfolio-hover-content">
                                 </div>
